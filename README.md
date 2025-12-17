@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+BillWise – Bill Reminder App
+Description
 
-## Getting Started
+BillWise is a lightweight bill reminder web application built with Next.js and Tailwind CSS. It helps users track upcoming bills, avoid missed payments, and stay organized using a clear, color-coded deadline system. All data is stored locally in the browser for simplicity and speed.
 
-First, run the development server:
+Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add bills with name, amount, due date, and category
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Visual status indicators (overdue, approaching, upcoming)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Countdown display for due dates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Mark bills as paid or delete them
 
-## Learn More
+- Data persistence using browser local storage
 
-To learn more about Next.js, take a look at the following resources:
+- Responsive design for desktop and mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Installation Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Clone the repository using git clone https://github.com/your-username/billwise.git, navigate into the project folder with cd billwise, install dependencies using npm install, then start the development server with npm run dev. Open http://localhost:3000 in your browser to view the application.
 
-## Deploy on Vercel
+Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Use the Add Bill feature to enter a bill’s name, amount, due date, and category. All bills appear on the main dashboard and are color-coded: red for overdue bills, yellow for bills due within 7 days, and green for bills due in more than 7 days. Users can mark bills as paid or delete them when they are no longer needed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributing
+
+This project is intended for educational purposes. Contributions are welcome via pull requests or suggestions. Please fork the repository and submit a pull request for any improvements.
+
+Credits
+
+Developed by Charles Joshua L. Tungol as part of the Web Development 2 course project.
+
+License
+
+This project is licensed under the MIT License.
